@@ -1,8 +1,8 @@
 <template>
-  <section class="hero pl-20 overflow-hidden">
-    <div class="grid grid-cols-2 h-[85vh]">
+  <section class="hero pl-32">
+    <div class="grid grid-cols-2 h-screen">
       <div class="space-y-8 py-14">
-        <img class="w-30 h-20 block animate-pulse" src="../../assets/hero_img/green_line.svg" />
+        <img class="w-30 h-20 block animate-pulse" src="../../assets/home_page/green_line.svg" />
         <!-- content text  -->
         <h2
           class="antialiased font-sans text-6xl font-bold capitalize text-slate-700 tracking-wide"
@@ -26,7 +26,7 @@
 
       <!-- content image  -->
       <div>
-        <img class="w-full h-auto" src="../../assets/hero_img/hero-noodle.png"/>
+        <img class="w-full h-auto" src="../../assets/home_page/hero-noodle.png"/>
       </div>
     </div>
   </section>

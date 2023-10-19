@@ -1,5 +1,5 @@
 <template>
-    <header class="p-5 px-20 mx-auto min-w-full">
+    <header class="p-5 px-32 mx-auto min-w-full">
         <nav class="flex justify-between items-center">
             <!-- logo  -->
             <div class="logo flex items-center">
