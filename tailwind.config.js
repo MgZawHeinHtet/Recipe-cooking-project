@@ -7,8 +7,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundSize : {
-        'normal' : '280px',
-      }
+        'normal' : '270px',
+      },
+      listStyleImage: {
+        checkmark: 'url("/src/assets/home_page/correct-stick.svg")',
+      },
 
     },
   },

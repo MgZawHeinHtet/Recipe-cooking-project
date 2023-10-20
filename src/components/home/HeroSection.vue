@@ -1,8 +1,7 @@
 <template>
   <section class="hero pl-32">
     <div class="grid grid-cols-2 h-screen">
-      <div class="space-y-8 py-14">
-        <img class="w-30 h-20 block animate-pulse" src="../../assets/home_page/green_line.svg" />
+      <div class="space-y-8 py-20 pt-28">
         <!-- content text  -->
         <h2
           class="antialiased font-sans text-6xl font-bold capitalize text-slate-700 tracking-wide"
