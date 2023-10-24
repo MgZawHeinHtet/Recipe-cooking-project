@@ -1,16 +1,19 @@
 
 <template>
-  <div class="dark:bg-black transition-all duration-500">
+  <div class="dark:bg-black transition-all duration-500 overflow-x-hidden">
     <!-- nav section  -->
     <navbar/>
 
     <router-view/>
-    
+
+    <!-- footer section  -->
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
 export default {
   created(){
     const mode = JSON.parse(localStorage.getItem('mode'))
@@ -26,7 +29,7 @@ export default {
       }
     }
   },
-  components : {Navbar}
+  components : {Navbar,Footer}
 }
 </script>
 

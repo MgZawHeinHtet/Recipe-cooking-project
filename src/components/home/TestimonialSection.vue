@@ -1,6 +1,6 @@
 <template>
-     <section class="testimonial px-32 py-10">
-      <div>
+     <section class="testimonial px-32 py-16">
+      <div class="space-y-14">
         <h2
           class="text-center antialiased font-sans text-5xl font-bold capitalize text-slate-700 tracking-wide mb-10"
         >testimonial by customers</h2>
