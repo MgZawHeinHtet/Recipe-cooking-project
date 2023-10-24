@@ -1,5 +1,5 @@
 <template>
-  <section class="service my-24 px-32">
+  <section class="service my-16 px-32">
     <div class="grid grid-cols-2 justify-center items-center h-[80vh]">
       <div
         class="grid grid-cols-3 gap-4 pr-36 justify-center [&>*:nth-child(3n-1)]:relative [&>*:nth-child(3n-1)]:top-20 [&>*:nth-child(3n-3)]:relative [&>*:nth-child(3n-3)]:bottom-10">
@@ -9,6 +9,7 @@
         </div>
 
       </div>
+      
       <div class="space-y-10">
         <div>
           <img class="w-20 h-16 block animate-pulse" src="../../assets/home_page/green_line.svg" />
