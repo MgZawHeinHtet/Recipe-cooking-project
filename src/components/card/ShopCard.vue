@@ -1,7 +1,7 @@
 <template>
     <div class="card px-7 space-y-5">
-        <div class="img_container bg-[url('../assets/home_page/bg-paint.png')] w-full bg-no-repeat bg-top bg-normal">
-            <img class="w-48 h-48 block mx-auto" src="../../assets/home_page/spagetti.png" alt="">
+        <div class="img_container bg-[url('../assets/home_page/bg-paint.png')] w-full bg-no-repeat bg-contain bg-left-top">
+            <img class="w-40 h-40 block mx-auto" src="../../assets/home_page/spagetti.png" alt="">
         </div>
         <div class="card_content space-y-4">
             <div>
