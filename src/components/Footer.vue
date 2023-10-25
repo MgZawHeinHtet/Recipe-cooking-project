@@ -1,6 +1,6 @@
 <template>
      <footer>
-      <div class="w-screen flex justify-center items-center bg-slate-800 h-72">
+      <div class="w-screen flex justify-center items-center bg-slate-800 h-64">
           <div class="footer-content space-y-6">
             <div class="footer-social flex items-center justify-center gap-8">
               <div class="icon bg-green-500 w-12 h-12 rounded-full flex justify-center items-center"><a href=""><img class="w-6 h-6" src="../assets/footer_icons/facebook.png" alt=""></a></div>

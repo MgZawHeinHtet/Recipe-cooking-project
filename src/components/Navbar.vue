@@ -12,7 +12,7 @@
                     <router-link to="/" active-class="text-green-500">Home</router-link>
                 </li>
                 <li class="text-lg font-medium hover:underline decoration-green-500 decoration-4 underline-offset-8">
-                    <router-link to="/main" active-class="text-green-500">Main</router-link>
+                    <router-link to="/menu" active-class="text-green-500">Menu</router-link>
                 </li>
                 <li class="text-lg font-medium hover:underline decoration-green-500 decoration-4 underline-offset-8">
                     <router-link to="/contact" active-class="text-green-500">Contact</router-link>

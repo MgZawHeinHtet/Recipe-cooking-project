@@ -4,7 +4,7 @@
     <!-- nav section  -->
     <navbar/>
 
-    <router-view/>
+  <router-view/>
 
     <!-- footer section  -->
     <Footer></Footer>
