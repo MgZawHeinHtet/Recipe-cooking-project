@@ -3,7 +3,7 @@
         <nav class="mx-auto px-32 flex justify-between items-center">
             <!-- logo  -->
             <div class="logo flex items-center">
-                <img class="w-24 h-24" src="../assets/nav_logo.png" alt="Logo" />
+                <img class="w-24 h-24" loading="eager" src="../assets/nav_logo.png" alt="Logo" />
             </div>
 
             <!-- nav link  -->
