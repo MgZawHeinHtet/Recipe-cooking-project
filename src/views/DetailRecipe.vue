@@ -2,21 +2,23 @@
   <div>
     <!-- showing recipe detail  -->
     <section class="px-32 my-16">
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-2 items-center">
         <div class="detail_img w-[80%]">
           <iframe
-            class="rounded-xl h-[120vh] object-contain"
+            class="rounded-xl h-[100vh] object-contain"
             width="100%"
             :src="youtube"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture;"
             allowfullscreen
           ></iframe>
         </div>
 
-        <div class="detail_content my-16 space-y-14">
+        <div class="detail_content  space-y-10">
           <!-- content title  -->
-          <div class>
+          <div class="flex justify-between items-center">
+            <div class="">
+
             <h2
               class="antialiased font-sans text-2xl font-bold uppercase text-slate-800 tracking-wide mb-3"
             >{{ title }}</h2>
@@ -28,22 +30,26 @@
               <i class="fa-solid fa-border-none"></i>
               {{ filterIngNull.length }} ingredients
             </span>
+            </div>
+            <div>
+              <button class="w-20 h-20"><i class="fa-regular fa-bookmark fa-2x"></i></button>
+            </div>
           </div>
 
-          <div class="col-span-1 h-40 w-[50%]">
+          <!-- <div class="col-span-1 h-40 w-[50%]">
             <img
               class="w-full h-full object-cover rounded-lg ring-2 ring-green-500 mb-2"
               :src="img"
               alt
             />
-          </div>
+          </div> -->
 
           <div>
             <h2 class="antialiased font-sans text-xl font-bold text-slate-800 tracking-wide mb-5">
               Ingredients
               <span class="text-slate-400 font-normal">| Steps</span>
             </h2>
-            <div class="ingredient grid grid-cols-2 w-full gap-x-32 gap-y-3">
+            <div class="ingredient grid grid-cols-2 w-full gap-x-32 space-y-2">
               <div
                 v-for="(ing,index) in filterIngNull"
                 :key="index"
@@ -95,7 +101,7 @@ export default {
       return this.ingredients.filter(ing => ing != null || ing != "");
     },
     filterRatioNull() {
-      return this.ratio.filter(r => r != null || ing != "");
+      return this.ratio.filter(r => r != null || r != "");
     }
   },
   methods: {
