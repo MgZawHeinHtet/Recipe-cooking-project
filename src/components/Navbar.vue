@@ -14,12 +14,7 @@
                 <li class="text-lg font-medium hover:underline decoration-green-500 decoration-4 underline-offset-8">
                     <router-link to="/menu" active-class="text-green-500">Menu</router-link>
                 </li>
-                <li class="text-lg font-medium hover:underline decoration-green-500 decoration-4 underline-offset-8">
-                    <router-link to="/contact" active-class="text-green-500">Contact</router-link>
-                </li>
-                <li class="text-lg font-medium hover:underline decoration-green-500 decoration-4 underline-offset-8">
-                    <router-link to="/about" active-class="text-green-500">About</router-link>
-                </li>
+               
             </ul>
 
             <!-- feature btn  -->
